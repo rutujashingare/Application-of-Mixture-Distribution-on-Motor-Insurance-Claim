@@ -22,6 +22,7 @@ We try to assess the goodness of fit by test & graphical method.
 
 ## Histogram
 ![Histogram](https://user-images.githubusercontent.com/70087327/130547499-5cb361b8-5edd-4a20-a709-56dd1377ccc2.jpg)
+
 By seeing the graph, It is reasonable to say that this distribution is a Mixture distribution and it consist of 2 components.
 
 ## What is mixture distribtion
@@ -43,10 +44,37 @@ The expected value of the log likelihood is recalculated using the new parameter
 This process is repeated until the converting criteria is met.
 ![image](https://user-images.githubusercontent.com/70087327/130547681-101e9db9-afde-4711-b25f-199f2712eff5.png)
 
-## E-Step
-![image](https://user-images.githubusercontent.com/70087327/130547718-d8c4f67b-bdfc-48ff-a062-ebb1120121a1.png)
+## K-Means clustering
+Kmeans algorithm is an iterative algorithm that tries to partition the dataset into K pre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group.
+It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible.
+![image](https://user-images.githubusercontent.com/70087327/130547906-cbf55095-0f2e-4268-bdcd-b9933530319d.png)
+
+## Bootstrap method
+The bootstrap method is a resampling technique used to estimate the sampling distribution of any statistic.
+A sufficient number of resamples are taken from a given sample which are of the same size that of the original sample using with replacement scheme.
+We apply the bootstrap technique to recalculate the estimated parameters for model fitting.
+
+## Goodness of fit
+The Goodness of Fit (GOF) test measures the compatibility of a random sample with a theoretical probability distribution function.
+We use the Kolmogorov-Smirnov test (K-S test) for showing how well the distribution fits our data set.
+  H0: The data follow a specified  distribution
+  Ha: The data does not follow the specified distribution
+  
+## Kolmogorov - smirnov test
+It is based on the Empirical Cumulative Distribution Function (ECDF) and denoted by: 
+                         
+           𝐹_𝑥^𝑛  (𝑥)=1/𝑛[Number of Observation ≤ x]
 
 
+The K-S test statistic is defined by:      
+     
+            D=𝑠𝑢𝑝¦𝑥 〖|𝐹〗_𝑥^𝑛(x) - 𝐹_𝑥^∗(x)|
 
-
-
+## Conclusion
+The  mixture  log- normal  distribution  is  not  fitted  to  the data at significant level of α = 0.05.
+The mixture normal distribution consisting of 2 components is fitted to the data at significant level of  α = 0.05.
+The mixing proportions created using these groups comprise of the following:
+ 82.26% in group 1.
+ 17.74% in group 2.
+Bootstrap gave confidence interval for mean, standard deviation & mixing weights of both the components.
+KS test & Emperical cdf graph proved that mixture normal distribution fits well to our data while log-normal doesn't.
