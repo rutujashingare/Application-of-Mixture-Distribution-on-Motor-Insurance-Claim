@@ -18,8 +18,6 @@ A model is fitted to the data and the estimated parameters for the model are cal
 We will try to use the bootstrap technique to fit the data and show that the bootstrap sample for observation can be applicable to the estimated parameters.
 We try to assess the goodness of fit by test & graphical method.
 
-## Dataset link:
-
 ## Histogram
 ![Histogram](https://user-images.githubusercontent.com/70087327/130547499-5cb361b8-5edd-4a20-a709-56dd1377ccc2.jpg)
 
