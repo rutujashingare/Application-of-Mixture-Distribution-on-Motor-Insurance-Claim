@@ -45,6 +45,7 @@ This process is repeated until the converting criteria is met.
 ## K-Means clustering
 Kmeans algorithm is an iterative algorithm that tries to partition the dataset into K pre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group.
 It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible.
+
 ![image](https://user-images.githubusercontent.com/70087327/130547906-cbf55095-0f2e-4268-bdcd-b9933530319d.png)
 
 ## Bootstrap method
