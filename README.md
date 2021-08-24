@@ -29,9 +29,8 @@ A mixture distribution is the distribution formed from the weighted combination 
 It can also be defined by the following formulae :
 
                                 𝑓_𝑥 (𝑥)=𝝉_1 𝑓_1 (𝑥) + 𝝉_2 𝑓_2 (𝑥) +…... + 𝝉_𝑘 𝑓_𝑘 (𝑥) 
-     
-     0 < 𝝉_𝑗  < 1 for j=1,2,..,k and 𝝉_1 + 𝝉_2 + ….. + 𝝉_𝑘 = 1
-     where f1, f2, f3 ……. are the component distributions and 𝝉_𝑗 are the mixing weights.
+                              0 < 𝝉_𝑗  < 1 for j=1,2,..,k and 𝝉_1 + 𝝉_2 + ….. + 𝝉_𝑘 = 1
+              where f1, f2, f3 ……. are the component distributions and 𝝉_𝑗 are the mixing weights.
 
 The mixture of distributions is sometime called compounding, which is extremely important as it can provide a superior fit.
 
@@ -63,12 +62,12 @@ We use the Kolmogorov-Smirnov test (K-S test) for showing how well the distribut
 ## Kolmogorov - smirnov test
 It is based on the Empirical Cumulative Distribution Function (ECDF) and denoted by: 
                          
-           𝐹_𝑥^𝑛  (𝑥)=1/𝑛[Number of Observation ≤ x]
+                                𝐹_𝑥^𝑛(𝑥) = 1/𝑛[Number of Observation ≤ x]
 
 
 The K-S test statistic is defined by:      
      
-            D=𝑠𝑢𝑝¦𝑥 〖|𝐹〗_𝑥^𝑛(x) - 𝐹_𝑥^∗(x)|
+                                       D = 𝑠𝑢𝑝¦𝑥 〖|𝐹〗_𝑥^𝑛(x) - 𝐹_𝑥^∗(x)|
 
 ## Conclusion
 The  mixture  log- normal  distribution  is  not  fitted  to  the data at significant level of α = 0.05.
