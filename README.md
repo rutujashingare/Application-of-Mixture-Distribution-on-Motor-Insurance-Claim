@@ -40,6 +40,7 @@ A commonly used tool for estimating the parameters of a mixture model is the Exp
 The EM iteration alternates between performing an expectation (E) step, which creates a function for the expectation of the log-likelihood evaluated using the current estimate for the parameters, and a maximization (M) step, which computes parameters maximizing the expected log-likelihood found on the E step.
 The expected value of the log likelihood is recalculated using the new parameters, and is compared to expected value of log-likelihood from the previous step.
 This process is repeated until the converting criteria is met.
+
 ![image](https://user-images.githubusercontent.com/70087327/130547681-101e9db9-afde-4711-b25f-199f2712eff5.png)
 
 ## K-Means clustering
