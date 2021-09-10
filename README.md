@@ -40,7 +40,8 @@ The EM iteration alternates between performing an expectation (E) step, which cr
 The expected value of the log likelihood is recalculated using the new parameters, and is compared to expected value of log-likelihood from the previous step.
 This process is repeated until the converting criteria is met.
 
-![image](https://user-images.githubusercontent.com/70087327/130547681-101e9db9-afde-4711-b25f-199f2712eff5.png)
+![image](https://user-images.githubusercontent.com/70087327/132872102-f516c248-cbfd-456f-b8dc-3dbef5285f7c.png)
+
 
 ## K-Means clustering
 Kmeans algorithm is an iterative algorithm that tries to partition the dataset into K pre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to only one group.
