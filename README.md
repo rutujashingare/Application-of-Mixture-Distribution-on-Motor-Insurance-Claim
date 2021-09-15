@@ -75,7 +75,10 @@ The K-S test statistic is defined by:
 The  mixture  log- normal  distribution  is  not  fitted  to  the data at significant level of α = 0.05.
 The mixture normal distribution consisting of 2 components is fitted to the data at significant level of  α = 0.05.
 The mixing proportions created using these groups comprise of the following:
+
  82.26% in group 1.
  17.74% in group 2.
+ 
 Bootstrap gave confidence interval for mean, standard deviation & mixing weights of both the components.
+
 KS test & Emperical cdf graph proved that mixture normal distribution fits well to our data while log-normal doesn't.
